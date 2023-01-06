@@ -9,7 +9,7 @@ import requests
 
 
 parser = argparse.ArgumentParser(
-    description="shows tracked time for freshdesk")
+    description="Shows tracked time with Freshdesk")
 group = parser.add_mutually_exclusive_group(required=True)
 group.add_argument("-y", "--yesterday", action="store_true",
                    help="shows time, tracked yesterday")
